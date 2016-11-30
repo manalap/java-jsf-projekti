@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fi">
+<head>
+<title>VLIB</title>
+<link rel="stylesheet" href="style.css" type="text/css" title="Default Theme" media="screen, projection"/>
+</head>
+<body>
+
+<h1>VLIB</h1>
+
+<div class="nav">
+<ul>
+<li><a href="haku.html">Haku</a></li><li><a href="selaus.html">Dokumenttien selaus</a></li><li class="current"><a href="yllapito.html">Ylläpito</a></li><li><a href="lainojen-hallinta.html">Lainojen hallinta</a></li>
+</ul>
+</div>
+
+<div class="logout">
+<a href="login.html">Logout</a>
+</div>
+
+<div class="subnav">
+</div>
+
+<div class="actions">
+</div>
+
+<div class="content">
+<h2>Ylläpito</h2>
+<form action="uusi-kirja.html" method="get">
+
+<!--
+<p class="ohje">
+Anna joko kirjan ISBN tai lehden ISSN tunnisteeksi.
+</p>
+-->
+
+<fieldset>
+<legend>Kirjan lisääminen</legend>
+<div class="ilabel"><small>ISBN</small></div>
+<div class="input"><input class="t" type="text" /></div>
+<a class="button" href="uusi-kirjan-nide.html">Lisää [teos löytyy]</a>
+<a class="button" href="uusi-kirja.html">Lisää [uusi teos]</a>
+</fieldset>
+
+<fieldset>
+<legend>Lehden lisääminen</legend>
+<div class="ilabel"><small>ISSN</small></div>
+<div class="input"><input class="t" type="text" /></div>
+<a class="button" href="uusi-lehden-nide.html">Lisää [sarja löytyy]</a>
+<a class="button" href="uusi-lehtisarja.html">Lisää [uusi sarja]</a>
+</fieldset>
+
+<fieldset>
+<legend>Olemassaolevien tietojen päivitys</legend>
+<p>Hae muokattavan kirjan tai lehden tiedot muokkaamista varten.</p>
+<a class="button" href="haku.html">Haku</a>
+</fieldset>
+
+<fieldset>
+<legend>Käyttäjän roolin muuttaminen</legend>
+
+<div class="ilabel"><small>Käyttäjätunnus</small></div>
+<div class="input"><input class="t" type="text" /></div>
+
+<a class="button" href="yllapito-rooli.html">Muuta rooli...</a>
+</fieldset>
+
+
+</form>
+</div><!-- /content -->
+
+
+</body>
+</html>

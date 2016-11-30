@@ -1,0 +1,275 @@
+html, body
+{
+	padding: 0;
+	margin: 0;
+}
+div.content
+{
+	padding: 0.25em;
+}
+
+.error
+{
+	margin: 0.25em;
+	padding: 0.25em;
+	border: solid 0.25em #f33;
+	background: yellow;
+	color: black;
+}
+.info
+{
+	margin: 0.25em;
+	padding: 0.25em;
+	border: solid 1px #000;
+	background: #ffc;
+	color: black;
+}
+
+h1, h2, h3, h4, legend, .logout
+{
+	font-family: "Lucida Sans Unicode";
+}
+
+code, tt
+{
+	font-family: "Lucida Console";
+}
+
+p, li, blockquote, td
+{
+	font-family: "Palatino Linotype";
+}
+
+
+h1
+{
+	background: #ccc;
+	color: #000;
+	margin: 0;
+	padding: 0.25em;
+	border-top: solid #eee 1px;
+	border-bottom: solid #aaa 1px;
+}
+h2
+{
+	margin: 0;
+	padding: 0;
+	padding-left: 0.25em;
+}
+
+.logout
+{
+	position: absolute;
+	top: 0.25em;
+	right: 0.25em;
+	background: transparent;
+	color: black;
+}
+.logout a:link, .logout a:visited
+{
+	color: black;
+	background: transparent;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-weight: 800;
+	padding-left: 0.25em;
+	padding-right: 0.25em;
+}
+
+.logout a:link:hover, .logout a:visited:hover
+{
+	color: black;
+	background: white;
+	text-decoration: underline;
+}
+
+fieldset
+{
+	margin: 0.5em;
+	padding: 0.5em;
+	border: solid #ccc 1px;
+}
+
+input.t
+{
+	/* text inputs */
+	width: 100%;
+	border: solid #ccc 1px;
+}
+input.t:focus
+{
+	border: solid #000 1px;
+}
+
+input.b
+{
+	/* default rendering for checkboxes */
+}
+input b:focus
+{
+}
+
+div.submit
+{
+	margin: 0.25em;
+	padding: 0.25em 0.5em;
+	text-align: right;
+}
+
+div.submit input.s
+{
+	width: 20%;
+}
+
+.nav ul
+{
+	display: block;
+	margin: 0;
+	padding: 0;
+	background: #eee;
+	color: #000;
+	border-top: solid #fefefe 1px;
+	border-bottom: solid #ccc 1px;
+	padding-left: 0.25em;
+	padding-right: 0.25em;
+}
+
+.nav ul li
+{
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+.nav ul li a
+{
+	white-space: nowrap;
+}
+
+.nav ul li a:link, .nav ul li a:visited
+{
+	color: #000;
+	background: transparent;
+	text-decoration: none;
+	border-left: solid 1px #fefefe;
+	border-right: solid 1px #ccc;
+	padding-left: 0.15em;
+	padding-right: 0.15em;
+}
+
+.nav ul li.current a:link, .nav ul li.current a:visited
+{
+	color: #fff;
+	background: #aaa;
+	border-left: solid 1px #ccc;
+	border-right: solid 1px #888;
+}
+
+.nav ul li a:link:hover, .nav ul li a:visited:hover
+{
+	color: #000;
+	background: #ccf;
+	border-left: solid 1px #eef;
+	border-right: solid 1px #aac;
+}
+
+label:hover
+{
+	outline: dashed 1px #aaa;
+	\-moz-outline: dashed 1px #aaa; ;
+}
+
+/*
+
+.actions ul
+{
+	display: block;
+	margin: 0;
+	padding: 0.15em;
+	background: #eee;
+	color: #000;
+	border-top: solid #fefefe 1px;
+	border-bottom: solid #ccc 1px;
+}
+
+.actions ul li
+{
+	display: inline;
+	margin: 0;
+}
+
+.actions ul li a:link, .actions ul li a:visited
+{
+	color: #000;
+	background: transparent;
+	text-decoration: none;
+	font-family: sans-serif;
+	border-left: solid 1px #eee;
+	border-right: solid 1px #eee;
+	padding-left: 0.15em;
+	padding-right: 0.15em;
+}
+
+.actions ul li a:link:hover, .actions ul li a:visited:hover
+{
+	color: #000;
+	background: #fff;
+	text-decoration: none;
+	font-family: sans-serif;
+	border: outset 1px #eee;
+}
+
+*/
+
+.error, .info
+{
+	display: none;
+}
+
+
+
+div.page
+{
+	z-index: 3;
+	margin: 0;
+	padding: 0;
+	border: solid #ccc 1px;
+}
+
+div.tabs
+{
+	margin-top: 0.5em;
+	z-index: 4;
+	position: relative;
+	top: 1px;
+	padding-left: 0.5em;
+}
+
+div.tabs input.s
+{
+	background: #eee;
+	color: #000;
+	border: solid #ccc 1px;
+	border-bottom: solid #ccc 1px;
+	font-size: 100%;
+	font-family: "Palatino Linotype";
+	outline: none !important;
+}
+div.tabs input.s:active, div.tabs input.s:focus
+{
+	border: solid #ccc 1px;
+	border-bottom: solid #ccc 1px;
+}
+div.tabs input.s:hover, div.tabs input.s.current:hover
+{
+	background: #ccf;
+	color: #000;
+}
+
+
+div.tabs input.s.current
+{
+	background: transparent;
+	border-bottom: solid #fff 1px;
+}
+
+

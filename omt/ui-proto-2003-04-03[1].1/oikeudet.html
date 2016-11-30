@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fi">
+<head>
+<title>VLIB</title>
+<link rel="stylesheet" href="style.css" type="text/css" title="Default Theme" media="screen, projection"/>
+</head>
+<body>
+
+<h1>VLIB</h1>
+
+<div class="nav">
+<ul>
+<li><a href="haku.html">Haku</a></li><li class="current"><a href="selaus.html">Dokumenttien selaus</a></li><li><a href="yllapito.html">Ylläpito</a></li><li><a href="lainojen-hallinta.html">Lainojen hallinta</a></li>
+</ul>
+</div>
+
+<div class="logout">
+<a href="login.html">Logout</a>
+</div>
+
+<div class="subnav">
+</div>
+
+<div class="actions">
+</div>
+
+<div class="content">
+<h2>Oikeuksien hallinta</h2>
+<form action="kansion-tiedot.html" method="get">
+
+
+<p class="ohje">
+Valitse kaikkien käyttäjien listasta haluamasi henkilöt ja paina "Myönnä kirjoitusoikeudet" tai valitse kirjoitusoikeuden omaavien käyttäjien listasta ne henkilöt joiden kirjoitusoikeuden haluat peruuttaa ja paina "Poista kirjoitusoikeudet".
+</p>
+
+<table class="rights">
+<tr><td width="50%">
+
+<fieldset>
+<legend>Kaikki käyttäjät</legend>
+<select size="16" multiple="multiple">
+<option>Ekström, Anna</option>
+<option>Mallikas, Mikko</option>
+<option>Virtanen, Ville</option>
+<option>Meikäläinen, Matti</option>
+</select>
+<input class="s" type="submit"  value="Myönnä kirjoitusoikeudet" />
+</fieldset>
+
+</td><td>
+
+<fieldset>
+<legend>Kirjoitusoikeuden omaavat käyttäjät</legend>
+<select size="16" multiple="multiple">
+<option>Mallikas, Mikko</option>
+<option>Meikäläinen, Matti</option>
+</select>
+<input class="s" type="submit"  value="Poista kirjoitusoikeudet" />
+</fieldset>
+
+</td></tr>
+</table>
+
+</form>
+</div><!-- /content -->
+
+
+</body>
+</html>

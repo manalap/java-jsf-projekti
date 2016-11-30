@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fi">
+<head>
+<title>VLIB</title>
+<link rel="stylesheet" href="style.css" type="text/css" title="Default Theme" media="screen, projection"/>
+</head>
+<body>
+
+<h1>VLIB</h1>
+
+<div class="nav">
+<ul>
+<li class="current"><a href="haku.html">Haku</a></li><li><a href="selaus.html">Dokumenttien selaus</a></li><li><a href="yllapito.html">Ylläpito</a></li>
+</ul>
+</div>
+
+<div class="logout">
+<a href="login.html">Logout</a>
+</div>
+
+<div class="subnav">
+</div>
+
+<div class="actions">
+</div>
+
+<div class="error">
+Virhe: Vika näppäimistön ja tuolin välissä.
+</div>
+
+<div class="info">
+Aika: <script type="text/javascript">document.write(new Date());</script>
+</div>
+
+<div class="content">
+<h2>Paperidokumentin haku</h2>
+
+
+<form action="haku.html" method="get">
+
+<div class="tabs">
+<input class="s current" tabindex="2" type="submit" name="button2" value="Normaali haku" />
+<input class="s" tabindex="3" type="submit" name="button3" value="Lisähaku" />
+</div>
+<div class="page">
+
+<fieldset>
+<legend>Hakuehdot</legend>
+
+<p class="ohje">
+Täytä yksi tai useampia kenttiä ja paina "Hae". Järjestelmä etsii antamaasi hakuehtoa siitä kentästä, jonka olet täyttänyt. Jos täytät monta kenttää, kaikkien kenttien vaatimusten tulee täyttyä tai yhtään osumaa ei palauteta.
+</p>
+
+<div class="ilabel"><small>ISBN</small></div>
+<div class="input"><label for="loginroot"></label><input class="t" id="loginroot" type="text" name="login" size="72" /></div>
+
+<div class="ilabel"><small>Kirjan nimi</small></div>
+<div class="input"><label for="fname"></label><input class="t" id="fname" type="text" name="fname" size="72" /></div>
+
+<div class="ilabel"><small>Kirjoittaja</small></div>
+<div class="input"><label for="lname"></label><input class="t" id="lname" type="text" name="lname" size="72" /></div>
+
+<div class="ilabel"><small>Kuvaus</small></div>
+<div class="input"><label for="passwd"></label><input class="t" id="passwd" type="password" name="passwd" size="72" /></div>
+
+</fieldset>
+
+<fieldset>
+<legend>Lisäasetukset</legend>
+
+<div>
+<label for="group7"><input class="b" type="checkbox" id="group7" value="1" />
+Etsi ainoastaan kirjoja, joita ei ole ennestään lainattu.</label>
+</div>
+
+<div>
+<label for="group8"><input class="b" type="checkbox" id="group8" value="1" />
+Etsi vain omasta toimipisteestä</label>
+</div>
+</fieldset>
+
+<div class="submit">
+<input class="s" type="submit" tabindex="1" name="button1" value="Hae!" />
+</div>
+
+</div><!-- /page -->
+
+</form>
+
+
+
+
+</div>
+<!-- /content -->
+
+
+</body>
+</html>

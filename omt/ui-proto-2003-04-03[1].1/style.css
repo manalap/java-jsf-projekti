@@ -1,0 +1,389 @@
+html, body
+{
+	padding: 0;
+	margin: 0;
+}
+div.content
+{
+	padding: 0.25em 0.5em;
+}
+
+.error
+{
+	margin: 0.25em;
+	padding: 0.25em;
+	border: solid 0.25em #f33;
+	background: yellow;
+	color: black;
+}
+.info
+{
+	margin: 0.25em;
+	padding: 0.25em;
+	border: solid 1px #000;
+	background: #ffc;
+	color: black;
+}
+
+h1, h2, h3, h4, legend, .logout
+{
+	font-family: "Lucida Sans Unicode";
+}
+
+code, tt
+{
+	font-family: "Lucida Console";
+}
+
+p, li, blockquote, td
+{
+	font-family: "Palatino Linotype";
+}
+
+
+h1
+{
+	background: #ccc;
+	color: #000;
+	margin: 0;
+	padding: 0.25em;
+	border-top: solid #eee 1px;
+	border-bottom: solid #aaa 1px;
+}
+h2
+{
+	margin: 0;
+	padding: 0;
+	padding-left: 0.25em;
+}
+form
+{
+	margin: 0;
+	padding: 0;
+}
+
+.logout
+{
+	position: absolute;
+	top: 0.25em;
+	right: 0.25em;
+	background: transparent;
+	color: black;
+}
+.logout a:link, .logout a:visited
+{
+	color: black;
+	background: transparent;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-weight: 800;
+	padding-left: 0.25em;
+	padding-right: 0.25em;
+}
+
+.logout a:link:hover, .logout a:visited:hover
+{
+	color: black;
+	background: white;
+	text-decoration: underline;
+}
+
+fieldset
+{
+	margin: 0.5em;
+	padding: 0.5em;
+	border: solid #ccc 1px;
+}
+
+input.t
+{
+	/* text inputs */
+	width: 100%;
+	border: solid #ccc 1px;
+}
+input.t:focus
+{
+	border: solid #000 1px;
+}
+
+input.b
+{
+	/* default rendering for checkboxes */
+}
+input b:focus
+{
+}
+
+div.submit
+{
+	margin: 0.25em;
+	padding: 0.25em 0.5em;
+	text-align: right;
+}
+
+div.submit input.s
+{
+	width: 20%;
+}
+
+.nav ul
+{
+	display: block;
+	margin: 0;
+	padding: 0;
+	background: #eee;
+	color: #000;
+	border-top: solid #fefefe 1px;
+	border-bottom: solid #ccc 1px;
+	padding-left: 0.25em;
+	padding-right: 0.25em;
+}
+
+.nav ul li
+{
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+.nav ul li a
+{
+	white-space: nowrap;
+}
+
+.nav ul li a:link, .nav ul li a:visited
+{
+	color: #000;
+	background: transparent;
+	text-decoration: none;
+	border-left: solid 1px #fefefe;
+	border-right: solid 1px #ccc;
+	padding-left: 0.15em;
+	padding-right: 0.15em;
+}
+
+.nav ul li.current a:link, .nav ul li.current a:visited
+{
+	color: #fff;
+	background: #aaa;
+	border-left: solid 1px #ccc;
+	border-right: solid 1px #888;
+}
+
+.nav ul li a:link:hover, .nav ul li a:visited:hover
+{
+	color: #000;
+	background: #ccf;
+	border-left: solid 1px #eef;
+	border-right: solid 1px #aac;
+}
+
+label:hover
+{
+	outline: dashed 1px #aaa;
+	\-moz-outline: dashed 1px #aaa; ;
+}
+
+/*
+
+.actions ul
+{
+	display: block;
+	margin: 0;
+	padding: 0.15em;
+	background: #eee;
+	color: #000;
+	border-top: solid #fefefe 1px;
+	border-bottom: solid #ccc 1px;
+}
+
+.actions ul li
+{
+	display: inline;
+	margin: 0;
+}
+
+.actions ul li a:link, .actions ul li a:visited
+{
+	color: #000;
+	background: transparent;
+	text-decoration: none;
+	font-family: sans-serif;
+	border-left: solid 1px #eee;
+	border-right: solid 1px #eee;
+	padding-left: 0.15em;
+	padding-right: 0.15em;
+}
+
+.actions ul li a:link:hover, .actions ul li a:visited:hover
+{
+	color: #000;
+	background: #fff;
+	text-decoration: none;
+	font-family: sans-serif;
+	border: outset 1px #eee;
+}
+
+*/
+
+
+div.page
+{
+	z-index: 3;
+	margin: 0;
+	padding: 0;
+	border: solid #ccc 1px;
+}
+
+div.tabs
+{
+	margin-top: 0.5em;
+	z-index: 4;
+/*	position: relative;
+	top: 1px;*/
+	padding-left: 0.5em;
+}
+
+div.tabs a:link, div.tabs a:visited
+{
+	text-decoration: none;
+	padding-left: 0.25em;
+	padding-right: 0.25em;
+	background: #eee;
+	color: #000;
+	border: solid #ccc 1px;
+	border-bottom: solid #ccc 1px;
+	font-size: 100%;
+	font-family: "Palatino Linotype";
+	outline: none !important;
+	z-index: 6;
+}
+div.tabs a:link:active, div.tabs a:link:focus
+{
+	border: solid #ccc 1px;
+	border-bottom: solid #ccc 1px;
+}
+div.tabs a:link:hover, div.tabs a.current:link:hover, div.tabs a:visited:hover
+{
+	background: #ccf;
+	color: #000;
+}
+
+
+div.tabs a.current:link, div.tabs a.current:visited
+{
+	background: transparent;
+	border-bottom: solid #fff 1px;
+}
+
+
+table.ls, table.meta
+{
+	width: 95%;
+	margin: 0.5em auto;
+	border-collapse: collapse;
+}
+table.ls td, table.ls th,
+table.meta td, table.meta th
+{
+	text-align: left;
+	vertical-align: top;
+}
+table.meta td, table.meta th
+{
+	border: solid silver 1px;
+	padding: 0.25em;
+}
+table.ls th.folder
+{
+	font-style: italic;
+}
+table.meta a.current
+{
+	font-weight: bold;
+}
+
+a.button:link, a.button:visited
+{
+	text-decoration: none;
+	border: outset 0.15em #ccc;
+	background: #ccc;
+	color: black;
+	padding: 0.15em 0.25em;
+	cursor: pointer;
+	font-size: 90%;
+	font-family: sans-serif;
+	
+	margin: 0.25em auto;
+	
+	display: block;
+	float: left;
+	margin-left: 0.15em;
+	margin-right: 0.15em;
+	
+	width: 30%;
+	text-align: center;
+}
+
+input.s
+{
+	text-decoration: none;
+	border: outset 0.15em #ccc;
+	background: #ccc;
+	color: black;
+	padding: 0.15em 0.25em;
+	cursor: pointer;
+	font-size: 90%;
+	font-family: sans-serif;
+}
+
+
+a.button:link:hover, a.button:visited:hover, input.s:hover
+{
+	background: #eee;
+	border-color: #eee;
+}
+
+a.button:link:active, a.button:visited:active
+{
+	border-style: inset;
+}
+
+div.result
+{
+	padding: 0.5em;
+	border: solid silver 1px;
+	margin: 0.25em;
+}
+
+div.result h3
+{
+	margin-top: 0;
+	margin-bottom: 0.25em;
+}
+div.result p
+{
+	margin: 0.25em auto;
+}
+div.result td, div.result th
+{
+	text-align: left;
+	vertical-align: top;
+	padding: 0.25em;
+}
+
+table.rights
+{
+	width: 100%;
+}
+
+table.rights td
+{
+	width: 50%;
+	text-align: center;
+}
+
+table.rights select
+{
+	width: 90%;
+	margin: 0.5em auto;
+}
